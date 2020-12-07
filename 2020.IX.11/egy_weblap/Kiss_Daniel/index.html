@@ -1,0 +1,50 @@
+<html>
+<head>
+<title></title>
+<meta charset=”utf-8”>
+<link rel="icon" href="kepek/favicon.ico" type="image/x-icon"/>
+
+<body>
+<div id="egyes">
+<h1>Egyes keret</h1>
+<hr>
+<h2>Startup Safari</h2>
+<ul>
+<li><a href=” cím”>Szöveg</a></li> 
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<div id="kettes">
+<h1>Kettes keret</h1>
+<hr>
+<h2>Táblázat</h2>
+<table>
+<tr><td>SZÖVEG</td>><td><img=”elérési út”</td></tr> 
+</table>
+</div>
+<div id="harmas">
+<h1>Hármas keret</h1>
+<hr>
+<h2>Egy kis programozás - javascript segítségével</h2>
+<form name="korszamitas"><!--Űrlapelemek elhelyezése és elnevezése, hogy tudjunk rá hivatkozni!-->
+	<font>Születési éved: </font><input type="text" name="szulev">  <!--Szöveges beviteli mező (elnevezve, hogy tudjunk rá hivatkozni)-->
+	<input type="button" value="Számol" onClick="szamolas()">  <!--A gomb felirattal és az eljárás neve,melyre hivatkozni fog-->
+	<font>Az életkorod: </font><input type="text" name="kor"><font> éves vagy :) </font><!--Szöveges beviteli mező (most adatmegjelenítésre használjuk)-->
+	<input  type="reset" value="Törlés"> <!--Törlő gomb, ha tévesztettünk vagy új számítást akarunk létrehozni (minden űrlapelem tartalmát törli)-->
+	<script> //Javascript program ide fog kerülni
+	function szamolas() //Az eljárás elnevezése (a gomb kattintásakor ide ugrik a program)
+	{
+	var ev = document.korszamitas.szulev.value*1; //A weblapon(document),korszamitas elnevezésű form,szulev elnevezésű szöveges beviteli mező értéke(value) egyenlő az ev nevű változóval
+	document.korszamitas.kor.value = 2019-ev;     //A weblapon(document),korszamitas nevű form (űrlap),kor nevű értéke (kiírja) a 2019-ből kivont ev nevű változó értékét
+	}
+</script>
+<link rel="stylesheet" type="text/css" href= "stilus.css">
+<script src="hull.js"></script>
+</head>
+</form>
+</div>
+</body>
+</html>
