@@ -1,0 +1,5 @@
+boolean= vagy true vagy false
+int= egész szám
+double= valós szám
+char= rövid
+string= szöveg kiírás
