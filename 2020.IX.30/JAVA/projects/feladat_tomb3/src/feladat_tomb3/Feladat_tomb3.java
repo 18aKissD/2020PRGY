@@ -20,17 +20,17 @@ public class Feladat_tomb3 {
 
 
 
-        int valasz;
+        int valasz;//valasz nevű változó deklarálása
         
-        Scanner bemenet = new Scanner(System.in);
+        Scanner bemenet = new Scanner(System.in);//A tömb elemszámának bekérése
         System.out.println("\nHány számból álljon a tömb?");
         valasz = bemenet.nextInt();
-        int tomb[] = new int[valasz];
-        System.out.println("A tömb elemei: ");
+        int tomb[] = new int[valasz];//tomb nevű tömb deklarálása, és inicializálása
+        System.out.println("A tömb elemei: ");//tomb nevű tömb elemeinek kiíratása
         
         for (int i = 0; i < valasz; i++) {
-        tomb[i]=(int) (Math.random()*9999)+1;
-            System.out.println((i+1) +".: " + String.format("%, 6d", tomb[i]));
+        tomb[i]=(int) (Math.random()*9999)+1;////tomb nevű tömb értékadása
+            System.out.println((i+1) +".: " + String.format("%, 6d", tomb[i]));//tomb nevű tömb elemeinek kiíratása
         }
     
     
